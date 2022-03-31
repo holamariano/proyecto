@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa137 Contacto</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/0cb5ed64f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <div class="top">
+        <div class="banner">
+            <a href="../index.html"><img src="../images/logo.png" alt=Logo width="10%"></a>
+        </div>
+        <nav class="navBar">
+            <a href="../index.html">INICIO</a>
+            <a href="./plano.html">PLANO</a>
+            <a href="./fotos.html">FOTOS</a>
+            <a href="./ubicacion.html">UBICACION</a>
+            <a href="#">CONTACTO</a>
+        </nav>
+        
+        <div class="redesSociales">
+            <a href="https://www.instagram.com/estanciaeladuar/?hl=es-la" target="_blank">
+                <i class="fa-brands fa-instagram-square fa-2x"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5491134322300&text=Hola,%20por%20favor%20contactame%20por%20la%20casa%20de%20El%20Aduar " target="_blank">
+                <i class="fa-brands fa-whatsapp-square fa-2x"></i></a>
+            <a href="https://www.facebook.com/Estancia-el-aduar-club-de-campo-148190029115800" target="_blank">
+                <i class="fa-brands fa-facebook-square fa-2x"></i></i></a>
+                
+        </div>
+    </div>    
+    </header>
+
+    <main>
+    <h1>FORMULARIO DE CONTACTO</h1>
+
+    <div>
+        <fieldset>
+            <br>
+            <legend>Dejanos tu consulta</legend>
+            <br>
+            <form action="datos.php"></form>
+            <label for="nombre">Ingresa tu nombre</label>
+            <input type="text" name="nombre">
+
+            <label for="telefono">Telefono de contacto</label>
+            <input type="number" name="telefono">
+<br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+<br><br>
+            <label for="text">Motivo de tu Consulta</label>
+            <textarea name="motivo" id="motivo" cols="100" rows="10" placeholder="multilinea">
+            </textarea>
+<br><br>
+            <label for="desde">Fecha Ingreso</label>
+            <input type="date" name="fechaIngreso" id="fechaIngreso">
+
+            <label for="hasta">Fecha Salida</label>
+            <input type="date" name="fechaSalida" id="fechaSalida">
+            <br><br>
+            <label for="Acepto" id="Acepto">Aceptas que usemos tus datos para acciones de marketing</label>
+            <input type="checkbox" name="Acepta" value="1">
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+            
+
+        </fieldset>
+    </main>
+
+    <footer>
+        <p class="pie">Estancia El Aduar - Partido de Zárate - Provincia de Bs As</p>
+    </footer>
+</body>
+</html>
