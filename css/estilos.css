@@ -260,10 +260,13 @@ p{
     .pie{
         display: none;
     }
-}
 
+    .title{
+        text-align: center;
+    }
+}
 @media screen and (min-width: 1000px){
-    .menuBar{
+    .menuBar a{
         display: none;
     }
 }
