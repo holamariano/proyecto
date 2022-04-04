@@ -180,6 +180,14 @@ fieldset legend{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+fieldset label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+fieldset input{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .reseña{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -209,7 +217,31 @@ footer{
 
 .linkMapa a{
     text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #701400;
+    margin-bottom: 20px;
 }
+
+.linkMapa a i{
+    color: #701400;
+}
+
+.mapInsert{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 75%;
+}
+
+.responsiveMap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 .pie{
     color: #f7a11a;
@@ -265,6 +297,10 @@ p{
 
     .title{
         text-align: center;
+    }
+
+    #motivo{
+        columns: 60px;
     }
 }
 @media screen and (min-width: 1000px){
