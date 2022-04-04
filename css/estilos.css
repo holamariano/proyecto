@@ -4,6 +4,7 @@
     grid-template-rows: repeat(3,1fr);
     max-height: 120px;
     padding-bottom: 30px;
+    width: 97,5vw;
 }
 
 .banner{
@@ -169,6 +170,7 @@ h3{
 
 fieldset{
     background-color: #e0c8c4;
+    width: auto;
 }
 
 fieldset legend{
