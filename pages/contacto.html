@@ -39,6 +39,52 @@
     <main>
     <h1>FORMULARIO DE CONTACTO</h1>
 
+    <legend>Dejanos tu consulta</legend>
+
+    <div class="containerForm">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Nombre</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name" placeholder="Ingresa tu nombre..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="email" name="email" placeholder="Ingresa tu email..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="telefono">Telefono</label>
+            </div>
+            <div class="col-75">
+              <input type="number" id="telefono" name="telefono" placeholder="Telefono de contacto..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="consulta">Consulta</label>
+            </div>
+            <div class="col-75">
+              <textarea id="consulta" name="consulta" placeholder="Escribi tu consulta.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Enviar">
+          </div>
+          <div class="row">
+            <input type="reset" value="Restablecer">
+          </div>
+        </form>
+      </div>
+
+    <!-- Version anterior de formulario
     <div>
         <fieldset>
             <br>
@@ -72,7 +118,8 @@
             <input type="reset">
             
 
-        </fieldset>
+        </fieldset>-->
+
     </main>
 
     <footer>
