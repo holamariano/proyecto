@@ -14,7 +14,7 @@
     <div class="top">
         <div class="banner">
             <a href="../index.html"><img src="../images/logo.png" alt=Logo width="130px"></a>
-            <div class="menuBar"><a href="#"><i class="fa-solid fa-bars fa-2x"></i></a></div>
+            <!--<div class="menuBar"><a href="#"><i class="fa-solid fa-bars fa-2x"></i></a></div>-->
         </div>
         <nav class="navBar">
             <a href="../index.html">INICIO</a>
@@ -31,8 +31,16 @@
                 <i class="fa-brands fa-whatsapp-square fa-2x"></i></a>
             <a href="https://www.facebook.com/Estancia-el-aduar-club-de-campo-148190029115800" target="_blank">
                 <i class="fa-brands fa-facebook-square fa-2x"></i></i></a>
-                
         </div>
+
+        <div class="vertical-menu">
+          <a href="../index.html">INICIO</a>
+          <a href="./plano.html">PLANO</a>
+          <a href="./fotos.html">FOTOS</a>
+          <a href="./ubicacion.html">UBICACION</a>
+          <a href="#" class="active">CONTACTO</a>
+      </div>
+
     </div>    
     </header>
 
@@ -49,6 +57,14 @@
             </div>
             <div class="col-75">
               <input type="text" id="name" name="name" placeholder="Ingresa tu nombre..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Apellido</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="surname" name="surname" placeholder="Ingresa tu apellido..">
             </div>
           </div>
           <div class="row">
@@ -75,10 +91,8 @@
               <textarea id="consulta" name="consulta" placeholder="Escribi tu consulta.." style="height:200px"></textarea>
             </div>
           </div>
-          <div class="row">
+          <div class="botones">
             <input type="submit" value="Enviar">
-          </div>
-          <div class="row">
             <input type="reset" value="Restablecer">
           </div>
         </form>
